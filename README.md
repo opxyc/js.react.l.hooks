@@ -1,3 +1,13 @@
+# React Hooks and Query
+### Rules of Hooks
+- **Only Call Hooks at the Top Level**
+
+    Don't call inside loops, conditions, or nested functions
+
+- **Only Call Hooks from React Functions**
+
+    Call them from within React functional components and not just any regular JavaScript function
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
