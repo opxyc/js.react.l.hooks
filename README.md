@@ -8,6 +8,9 @@
 
     Call them from within React functional components and not just any regular JavaScript function
 
+### Notes:
+-  a state variable can be a string, number, boolean, object or an array
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
