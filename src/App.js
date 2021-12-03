@@ -9,12 +9,13 @@ import './App.css';
 // import HookCounterOne from './components/useEffect/HookCounterOne'
 // import HookCounterTwo from './components/useEffect/HookCounterTwo'
 // import HookMouse from './components/useEffect/HookMouse'
-import WithCleanUp from './components/useEffect/WithCleanUp'
+// import WithCleanUp from './components/useEffect/WithCleanUp'
+import IntervalHookCounter from './components/useEffect/IntervalHookCounter'
 
 function App() {
   return (
     <div className="App">
-      <WithCleanUp />
+      <IntervalHookCounter />
     </div>
   );
 }
