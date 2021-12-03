@@ -8,12 +8,13 @@ import './App.css';
 // import ClassCounterOne from './components/useEffect/ClassCounterOne'
 // import HookCounterOne from './components/useEffect/HookCounterOne'
 // import HookCounterTwo from './components/useEffect/HookCounterTwo'
-import HookMouse from './components/useEffect/HookMouse'
+// import HookMouse from './components/useEffect/HookMouse'
+import WithCleanUp from './components/useEffect/WithCleanUp'
 
 function App() {
   return (
     <div className="App">
-      <HookMouse />
+      <WithCleanUp />
     </div>
   );
 }
