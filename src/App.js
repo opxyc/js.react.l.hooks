@@ -6,12 +6,13 @@ import './App.css';
 // import HookCounterThree from './components/useState/HookCounterThree'
 // import HookCounterFour from './components/useState/HookCounterFour'
 // import ClassCounterOne from './components/useEffect/ClassCounterOne'
-import HookCounterOne from './components/useEffect/HookCounterOne'
+// import HookCounterOne from './components/useEffect/HookCounterOne'
+import HookCounterTwo from './components/useEffect/HookCounterTwo'
 
 function App() {
   return (
     <div className="App">
-      <HookCounterOne />
+      <HookCounterTwo />
     </div>
   );
 }
