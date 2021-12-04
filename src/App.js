@@ -1,9 +1,9 @@
-import ComponentA from './components/useContext/ComponentA'
+import CounterOne from './components/useReducer/CounterOne'
 
 function App() {
   return (
     <div className="App">
-      <ComponentA />
+      <CounterOne />
     </div>
   );
 }
