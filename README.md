@@ -42,3 +42,11 @@
 - useReducer - local state management
 - useContezt - for sharing parent content
 - if we cant to share state between components, we can combine useReducer and useContent
+
+| Scenario | useState | useReducer |
+| --- | --- | --- |
+| Type of state | Number, String, Boolean | Object or Array |
+| Number of state transitions | One or two | Too many |
+| Related state transitions? | No | Yes |
+| Business Logic | No business logic | Complex business logic |
+| Local vs global | Local | Global |
