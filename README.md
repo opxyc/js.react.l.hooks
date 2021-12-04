@@ -57,3 +57,6 @@
 
 #### useMemo
 useCallback caches the provided function instance itself, whereas, useMemo invokes the provided function and caches it's result. So, if you need to cache a function, use call back and when you need the cache the result of an invoked function, use useMemo.
+
+#### useRef
+To access DOM nodes in react functional components
