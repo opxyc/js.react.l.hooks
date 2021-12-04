@@ -37,3 +37,8 @@
 | `array.reduce(reducer, initialValue)` | `userReducer(reducer, initialState)` |
 | `singleValue = reducer(accumulator, itemValue)` | `newState = reducer(currentState, action)`. The `action` determines the change from currentState to new state. |
 | `reduce` method returns a single value | `useReducer` returns a pair of values - `[newState, dispatch]` |
+
+#### useReducer with useContent
+- useReducer - local state management
+- useContezt - for sharing parent content
+- if we cant to share state between components, we can combine useReducer and useContent
