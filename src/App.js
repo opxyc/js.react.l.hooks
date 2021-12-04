@@ -1,5 +1,3 @@
-import logo from './logo.svg';
-import './App.css';
 // import ClassCounter from './components/useState/ClassCounter'
 // import HookCounter from './components/useState/HookCounter'
 // import HookCounterTwo from './components/useState/HookCounterTwo'
@@ -10,12 +8,13 @@ import './App.css';
 // import HookCounterTwo from './components/useEffect/HookCounterTwo'
 // import HookMouse from './components/useEffect/HookMouse'
 // import WithCleanUp from './components/useEffect/WithCleanUp'
-import IntervalHookCounter from './components/useEffect/IntervalHookCounter'
+// import IntervalHookCounter from './components/useEffect/IntervalHookCounter'
+import DataFetching from './components/useEffect/DataFetching'
 
 function App() {
   return (
     <div className="App">
-      <IntervalHookCounter />
+      <DataFetching />
     </div>
   );
 }
