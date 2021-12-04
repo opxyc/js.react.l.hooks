@@ -1,10 +1,10 @@
 import './App.css'
-import Timer from './components/useRef/Timer';
+import DocTitleHook from './components/customHooks/DocTitleHook';
 
 function App() {
   return (
     <div className="App">
-      <Timer />
+      <DocTitleHook />
     </div>
   );
 }

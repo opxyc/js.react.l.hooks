@@ -60,3 +60,10 @@ useCallback caches the provided function instance itself, whereas, useMemo invok
 
 #### useRef
 To access DOM nodes in react functional components. It can also be used to store any mutable value.
+
+#### Custom Hooks
+- A custom hook is basically a JavaScript function whose name starts with "use'
+- A custom hook can also call other Hooks if required
+- Why? 
+
+    - Share logic - alternative to HOC and Render Props
