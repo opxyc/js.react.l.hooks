@@ -22,3 +22,6 @@
 - The effect hook lets you perform side effects in functionsl components
 - It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount
 
+#### Content
+- Context provides a way to pass data through the component tree without having to pass props down manually at every level
+- useContext hook makes the consumption of the context value simpler (while keeping the first 2 steps - creation of content and passing it to children - the same)
