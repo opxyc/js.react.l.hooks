@@ -50,3 +50,7 @@
 | Related state transitions? | No | Yes |
 | Business Logic | No business logic | Complex business logic |
 | Local vs global | Local | Global |
+
+#### useCallback
+- useCallback is a hook that will return a memorized version of the callback function that only changes if one of the dependancies has changed
+- it is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders

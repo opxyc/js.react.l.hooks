@@ -1,11 +1,10 @@
 import './App.css'
-
-import DataFetching from './components/useReducer/DataFetching';
+import ParentComponent from './components/useCallback/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <ParentComponent />
     </div>
   );
 }
