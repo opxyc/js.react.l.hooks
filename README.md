@@ -54,3 +54,6 @@
 #### useCallback
 - useCallback is a hook that will return a memorized version of the callback function that only changes if one of the dependancies has changed
 - it is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders
+
+#### useMemo
+useCallback caches the provided function instance itself, whereas, useMemo invokes the provided function and caches it's result. So, if you need to cache a function, use call back and when you need the cache the result of an invoked function, use useMemo.
